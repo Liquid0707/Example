@@ -114,7 +114,7 @@ body {
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin: 10px 20px;
+        margin: 10px 20px 0px 10px;
     }
     .icon {
         display: flex;
@@ -125,4 +125,3 @@ body {
         margin-left: 60px;
     }
   }
-  
