@@ -89,38 +89,32 @@ body {
     background-color: rgb(215, 221, 227);
 }
 @media only screen and (max-width: 600px) {
-    .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-    }
     .box {
         display: flex;
         flex-direction: column;
         height: 500px;
-        width: 350px;
+        width: 250px;
         border-radius: 10px;
     }
     .thumbnail {
         height: 200px;
-        width: 350px;
-        align-items: center;
+        width: 250px;
+        margin-right: 0;
         border-top-right-radius: inherit;
         border-top-left-radius: inherit;
+        border-bottom-left-radius: 0;
     }
     .content {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        margin-top: 20px;
+        margin: 20px;
     }
     .profil {
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin-right: 0;
-        margin-bottom: 10px;
+        margin: 10px 20px;
     }
     .icon {
         display: flex;
@@ -128,6 +122,7 @@ body {
         justify-content: flex-end;
         align-items: center;
         flex-basis: 50px;
-        margin-left: 20px;
+        margin-left: 60px;
     }
   }
+  
