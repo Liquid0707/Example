@@ -92,7 +92,7 @@ body {
     .box {
         display: flex;
         flex-direction: column;
-        height: 500px;
+        height: 450px;
         width: 250px;
         border-radius: 10px;
     }
