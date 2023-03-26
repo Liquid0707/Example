@@ -91,7 +91,7 @@ body {
 @media only screen and (max-width: 600px) {
     .box {
       flex-direction: column;
-      height: 1200px;
+      height: 600px;
       width: 100%;
     }
     .thumbnail {
