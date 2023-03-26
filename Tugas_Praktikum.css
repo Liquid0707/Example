@@ -1,0 +1,100 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: white;
+}
+.thumbnail {
+    height: 200px;
+    width: 200px;
+    margin-right: 20px;
+    border-bottom-left-radius: inherit;
+    border-top-left-radius: inherit;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 4px;
+    color: rgb(95, 95, 95);
+}
+.title {
+    font-size: 13px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 7px;
+}
+.description {
+    font-size: 11px;
+    margin-right: 7px;
+    color: rgb(135, 140, 142);
+}
+.bio {
+    display: flex;
+    flex-direction: row;
+    font-size: 8px;
+}
+.bio img{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.profil {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 50px;
+}
+.data {
+    display: flex;
+    flex-direction: column;
+}
+.name {
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+.date {
+    margin: 0;
+    margin-bottom: 0;
+    color: rgb(135, 140, 142);
+}
+.icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-basis: 50px;
+    margin-left: 40px;
+}
+.icon img {
+    background-color: rgb(215, 221, 227);
+    width: 15px;
+    height: 15px;
+}
+.icon img:hover {
+    background-color: rgb(113, 118, 124);
+    color: white;
+}
+body {
+    font-family: sans-serif;
+    background-color: rgb(215, 221, 227);
+}
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 16px;
+    }
+  }
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+  }
