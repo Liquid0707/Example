@@ -89,16 +89,22 @@ body {
     background-color: rgb(215, 221, 227);
 }
 @media only screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
     .box {
         display: flex;
         flex-direction: column;
         height: 500px;
-        width: 400px;
+        width: 350px;
         border-radius: 10px;
     }
     .thumbnail {
         height: 200px;
-        width: 400px;
+        width: 350px;
         border-top-right-radius: inherit;
         border-top-left-radius: inherit;
     }
