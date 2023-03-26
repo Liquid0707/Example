@@ -92,12 +92,12 @@ body {
     .box {
         display: flex;
         flex-direction: column;
-        height: 450px;
+        height: 350px;
         width: 250px;
         border-radius: 10px;
     }
     .thumbnail {
-        height: 200px;
+        height: 150px;
         width: 250px;
         margin-right: 0;
         border-top-right-radius: inherit;
@@ -109,6 +109,9 @@ body {
         flex-direction: column;
         flex-wrap: wrap;
         margin: 20px;
+    }
+    .bio {
+
     }
     .profil {
         display: flex;
