@@ -110,11 +110,20 @@ body {
         flex-wrap: wrap;
         margin: 20px;
     }
+    .title {
+        font-size: 11px;
+    }
+    .description {
+        font-size: 9px;
+    }
+    .bio {
+        font-size: 6px;
+    }
     .profil {
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin: 10px 20px 0px 10px;
+        margin: 10px 20px 0px 5px;
     }
     .icon {
         display: flex;
