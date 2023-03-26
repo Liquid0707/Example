@@ -92,7 +92,7 @@ body {
     .box {
         display: flex;
         flex-direction: column;
-        height: 350px;
+        height: 400px;
         width: 250px;
         border-radius: 10px;
     }
@@ -109,9 +109,6 @@ body {
         flex-direction: column;
         flex-wrap: wrap;
         margin: 20px;
-    }
-    .bio {
-
     }
     .profil {
         display: flex;
