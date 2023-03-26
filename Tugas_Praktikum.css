@@ -111,13 +111,13 @@ body {
         margin: 20px;
     }
     .title {
-        font-size: 11px;
+        font-size: 15px;
     }
     .description {
-        font-size: 9px;
+        font-size: 13px;
     }
     .bio {
-        font-size: 6px;
+        font-size: 10px;
     }
     .profil {
         display: flex;
